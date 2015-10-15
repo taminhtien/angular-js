@@ -12,8 +12,13 @@
 
 6. The value of title showed up when we viewed the app in the browser.
 
-# This is the typical workflow when making an AngularJS app:
+# Workflow
 
 1. Create a module, and use ```ng-app``` in the view to define the application scope.
 2. Create a controller, and use ```ng-controller``` in the view to define the controller scope.
 3. Add data to ```$scope``` in the controller so they can be displayed with expressions in the view.
+
+# Filter
+1. AngularJS gets the value of ```product.price```.
+2. It sends this number into the ```currency``` filter. The pipe symbol (```|```) takes the output on the left and "pipes" it to the right.
+3. The filter outputs a formatted currency with the dollar sign and the correct decimal places.

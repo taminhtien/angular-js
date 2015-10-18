@@ -48,3 +48,12 @@ Directives bind behavior to HTML elements. When the app runs, AngularJS walks th
 
 1. **Readability.** Directives let you write expressive HTML. Looking at index.html you can understand the app's behavior just by reading the HTML.
 2. **Reusability.** Directives let you create self-contained units of functionality. We could easily plug in this directive into another AngularJS app and avoid writing a lot of repetitive HTML.
+
+# Why are services useful?
+
+Why are services useful? Instead of filling the controller with code to fetch weather data from a server, it's better to move this independent logic into a service so that it can be reused by other parts of the app.
+
+What can we generalize so far?
+
+- Directives are a way to make standalone UI components, like ```<app-info>```
+- Services are a way to make standalone communication logic, like ```forecast``` which fetches weather data from a server

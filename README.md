@@ -7,6 +7,11 @@
 5. Inside ```<div class="main">``` we accessed ```$scope.title``` using ```{{ title }}```. This is called an expression. Expressions are used to display values on the page.
 6. The value of title showed up when we viewed the app in the browser.
 
+# Workflow
+
+1. Create a module, and use ```ng-app``` in the view to define the application scope.
+2. Create a controller, and use ```ng-controller``` in the view to define the controller scope.
+3. Add data to ```$scope``` in the controller so they can be displayed with expressions in the view.
 
 # Filter
 

@@ -43,3 +43,8 @@ Directives bind behavior to HTML elements. When the app runs, AngularJS walks th
 3. A user clicks an element in the view. If the element has a directive, AngularJS runs the function.
 4. The function in the controller updates the state of the data.
 5. The view automatically changes and displays the updated data. The page doesn't need to reload at any point.
+
+# Why is creating your own directives useful?
+
+1. **Readability.** Directives let you write expressive HTML. Looking at index.html you can understand the app's behavior just by reading the HTML.
+2. **Reusability.** Directives let you create self-contained units of functionality. We could easily plug in this directive into another AngularJS app and avoid writing a lot of repetitive HTML.

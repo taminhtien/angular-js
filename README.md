@@ -1,4 +1,6 @@
-# First-review Note
+# Angular Notes
+
+## First-review example
 
 1. In ```app.js```, we created a new module named MyApp. A module contains the different components of an AngularJS app.
 2. Then, in ```index.html``` we added ```<body ng-app="myApp">```. The ```ng-app``` is called a directive. It tells AngularJS that the MyApp module will live within the ```<body>``` element, termed the application's scope. In other words, we used the ng-app directive to define the application scope.
@@ -57,3 +59,13 @@ What can we generalize so far?
 
 - Directives are a way to make standalone UI components, like ```<app-info>```
 - Services are a way to make standalone communication logic, like ```forecast``` which fetches weather data from a server
+
+## Why are routes useful?
+
+Why are routes useful? Instead of filling a single view with more code than needed, routes let us map URLs to self-contained controllers and templates. Furthermore, now that the app has URLs, users can easily bookmark and share the app's pages.
+
+What can we generalize so far?
+
+- Directives are a way to make standalone UI components, like ```<app-info>```
+- Services are a way to make standalone communication logic, like forecast which fetches weather data from a server
+- Routes are a way to manage apps containing more views.
